@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--在手机设置界面中添加自动抢红包服务-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100"
+    android:description="@string/app_name"
+    android:packageNames="com.tencent.mm"  />
